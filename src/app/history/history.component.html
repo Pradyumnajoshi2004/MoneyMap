@@ -1,0 +1,38 @@
+<div class="container my-5">
+    <div class="row">
+        
+            <form (submit)="handleSubmit()">
+                <select  [(ngModel)]="selectedType" name="type" class="form-select">
+                <option  class="form-select" value="" disabled selected>Select An Option</option>
+                <option class="form-select" value="expense">Expance</option>
+                <option class="form-select" value="income">Income</option>
+                <option class="form-select" value="overall">overall</option>
+            </select>
+            <div class="d-flex justify-content-center my-3">
+                <button id="search" type="submit" class="btn">Search</button>
+            </div>
+            </form>
+    
+
+        
+        <table class="table p-4 my-5">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Expance/Income</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr *ngFor="let item of data">
+                    <td>{{item.title}}</td>
+                    <td>{{item.price}}</td>
+                    <td>{{item.type}}</td>
+                    <td><button (click)="editData(item._id)" class="btn btn-info">Edit</button></td>
+                    <td><button (click)="deleteData(item._id)" class="btn btn-danger">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

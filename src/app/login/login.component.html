@@ -1,0 +1,17 @@
+<div class="contanier my-5" id="login">
+    <div class="row my-5">
+        <h2 class="text-center fw-bolder">Login Here !</h2>
+    </div>
+    <div class="row">
+        <div class="d-flex justify-content-center">
+            <form (submit)="handleSubmit()">
+                <input [(ngModel)]="loginObj.email" class="form-control my-3" required type="text" name="email" placeholder="Enter Email">
+                <input  [(ngModel)]="loginObj.password" class="form-control my-3" required type="text" name="password" placeholder="Enter Password">
+                <div class="d-flex justify-content-center align-items-center">
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="button" (click)="toRegister()" class="btn text-dark me-3">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

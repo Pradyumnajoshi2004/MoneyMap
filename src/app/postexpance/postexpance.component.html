@@ -1,0 +1,19 @@
+<div class="container my-5">
+    <div class="row d-flex justify-content-center">
+        <h2 class="text-center">Record a Transaction</h2>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <form (submit)="handleSubmit()">
+            <input name="title" [(ngModel)]="expanceObj.title" class="form-control my-3" type="text" placeholder="Enter Title">
+            <input name="price" [(ngModel)]="expanceObj.price" class="form-control my-3" type="number" placeholder="Enter Price">
+            <select class="form-select" name="type" [(ngModel)]="expanceObj.type">
+                <option  class="form-select"  value="" disabled selected>Select the option</option>
+                <option  class="form-select"  value="income">income</option>
+                <option  class="form-select" value="expense">expence</option>
+            </select>
+            <div class="d-flex justify-content-center my-3">
+                <button type="submit" class="btn btn-primary my-5 p-3">Save</button>
+            </div>
+        </form>
+    </div>
+</div>

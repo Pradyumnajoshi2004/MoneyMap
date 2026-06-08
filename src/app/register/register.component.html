@@ -1,0 +1,23 @@
+<div class="container my-4" id="register">
+    <div class="row text-center">
+        <h2 class="my-4 fw-bolder fs-2">Welcome to Money Map</h2>
+        <p class="fw-medium">Track your expences effortlessly and gain insights into your spending habits </p> 
+    </div>
+    <div class="row d-flex justify-content-center vh-50">
+            <div class="d-flex justify-content-center">
+                <form (submit)="handleSubmit()">
+                <input required [(ngModel)]="regsiterObj.name" class="form-control my-3" type="text" name="name" placeholder="Enter Name">
+                <input [(ngModel)]="regsiterObj.email" class="form-control my-3" required type="text" name="email" placeholder="Enter Email">
+                <input required [(ngModel)]="regsiterObj.password" class="form-control my-3" type="text" name="password" placeholder="Enter Password">
+                <div class="d-flex justify-content-center align-items-center my-3">
+                    <button type="submit" class="btn text-dark me-3">Register</button>
+                    <button type="button" (click)="toLogin()" class="btn  text-dark">Aleady User</button>
+                </div>
+            </form>
+            </div>
+    </div>
+</div>
+
+
+
+

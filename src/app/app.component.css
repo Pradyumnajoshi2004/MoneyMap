@@ -1,0 +1,8 @@
+a:hover{
+    background-color: #5cd6ab;
+    border-radius: 1rem;
+}
+
+#danger:hover{
+    background: red;
+}

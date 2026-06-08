@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-div {
+    height: 20rem;
+    width: 20rem;
+    margin: 2rem;
+    border-radius: 0.8rem;
+    background-color: #009963;
+    transition: transform 0.3s ease;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-div:hover {
+    transform: scale(1.05);
+}

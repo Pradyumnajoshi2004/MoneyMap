@@ -1,0 +1,19 @@
+<div class="container my-5 d-flex flex-column align-items-center justify-content-center">
+    <div class="row text-center">
+        <h2 class=" fw-bolder fs-3">Update Your Record</h2>
+    </div>
+    <div class="row d-flex justify-content-center my-5">
+        <form (submit)="handleSubmit()">
+            <input [(ngModel)]="expanceObj.title" class="form-control my-3" type="text" name="title">
+            <input [(ngModel)]="expanceObj.price" class="form-control my-3" type="number" name="price">
+            <select [(ngModel)]="expanceObj.type" class="form-select" name="type">
+                <option  class="form-select"  value="" disabled selected>Select the option</option>
+                <option  class="form-select"  value="income">income</option>
+                <option  class="form-select" value="expense">expence</option>
+            </select>
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn">update</button>
+            </div>
+        </form>
+    </div>
+</div>

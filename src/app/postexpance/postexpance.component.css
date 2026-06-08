@@ -1,0 +1,28 @@
+*{
+    background-color: #F7FCFA;
+}
+
+input{
+    
+    border: 1px solid #009963;
+}
+
+input:hover{
+    background-color: #93d8c0;
+}
+
+button{
+    margin: 3rem;
+    width: 12rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #62e2ae;
+}
+
+button:hover{
+    background-color: #009963;
+}
+
+select{
+    border: 1px solid #009963;
+}
