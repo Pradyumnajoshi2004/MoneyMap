@@ -1,59 +1,47 @@
-# Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+---
 
-## Development server
+## 💰 **Money Map - Expense Tracker README (Angular + Bootstrap)**
 
-To start a local development server, run:
+### **README.md**
 
-```bash
-ng serve
-```
+```markdown
+# 💰 Money Map - Expense Tracker
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+A comprehensive personal finance management application built with Angular, Bootstrap, Node.js, Express, and MongoDB. Money Map helps you track expenses, manage budgets, and gain insights into your spending habits.
 
-## Code scaffolding
+## ✨ Features
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- 🔐 **User Authentication** - Secure JWT-based login and registration
+- 💳 **Expense Tracking** - Add, edit, and delete expenses
+- 📊 **Income Management** - Track multiple income sources
+- 🏷️ **Category Management** - Organize expenses by categories
+- 📈 **Budget Planning** - Set and track monthly budgets
+- 📊 **Analytics Dashboard** - Visual insights with charts
+- 💰 **Currency Support** - Multiple currency support
+- 📱 **Responsive Design** - Bootstrap 5 powered responsive UI
+- 📅 **Date Filters** - Filter transactions by date range
+- 📊 **Reports** - Generate expense reports
+- 🔔 **Budget Alerts** - Get notified when nearing budget limits
+- 📱 **Mobile Friendly** - Optimized for all devices
 
-```bash
-ng generate component component-name
-```
+## 🛠️ Tech Stack
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Frontend
+- **Angular 17** - Framework
+- **Bootstrap 5** - UI Framework
+- **Chart.js** - Data visualization
+- **RxJS** - Reactive programming
+- **Angular Router** - Navigation
+- **Angular Forms** - Reactive Forms
+- **Angular HttpClient** - API communication
 
-```bash
-ng generate --help
-```
+### Backend
+- **Node.js** - Runtime
+- **Express.js** - Web framework
+- **MongoDB** - Database
+- **Mongoose** - ODM
+- **JWT** - Authentication
+- **Bcrypt** - Password hashing
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📁 Project Structure
