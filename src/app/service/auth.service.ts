@@ -17,7 +17,7 @@ export class AuthService {
 
   constructor(public http : HttpClient , public route : Router) { }
 
-  url:string = "https://expance-backend-vj1d.onrender.com/api/user/"
+  url:string = "https://expance-backend-01bk.onrender.com/api/user/"
 
   register(user:any){
     return this.http.post(this.url,user)

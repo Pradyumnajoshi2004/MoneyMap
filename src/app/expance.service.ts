@@ -9,7 +9,7 @@ export class ExpanceService {
 
   constructor(public http : HttpClient) { }
 
-  url:string = "https://expance-backend-vj1d.onrender.com/api/expance/"
+  url:string = "https://expance-backend-01bk.onrender.com/api/expance/"
 
   getExpance(){
     return this.http.get(this.url)

@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class CalcuateExpanceService {
 
-  url:string = "https://expance-backend-vj1d.onrender.com/api/calcuate"
+  url:string = "https://expance-backend-01bk.onrender.com/api/calcuate"
 
   constructor(public http : HttpClient) { }
 
